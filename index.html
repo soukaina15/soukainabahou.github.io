@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Soukaina Bahou | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#home">Soukaina_Bahou</a>
+
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="menu" id="menu">
+        <a href="#home" class="active">Accueil</a>
+        <a href="#about">À propos</a>
+        <a href="#education">Formation</a>
+        <a href="#skills">Compétences</a>
+        <a href="#experience">Expérience</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>Soukaina Bahou</h1>
+        <p class="subtitle">Master IA & Analytics — Data / BI / ML</p>
+        <p class="desc">
+          Je présente ici mes projets, compétences et expériences. Je suis ouverte aux stages / opportunités
+          en Data Analyst, BI Analyst et Machine Learning.
+        </p>
+
+        <div class="actions">
+          <a class="btn primary" href="#projects">Voir mes projets</a>
+          <a class="btn" href="#contact">Me contacter</a>
+          <a class="btn ghost" href="assets/CV_Soukaina_Bahou.pdf" target="_blank" rel="noreferrer">Mon CV</a>
+        </div>
+
+        <div class="social">
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">GH</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <img src="assets/photo.jpg" alt="Photo de Soukaina" />
+      </div>
+    </div>
+  </main>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>À propos</h2>
+      <p>
+        Étudiante en Master IA & Analytics, avec expérience en banque. J’aime transformer des données en
+        insights et construire des solutions data (ETL, dashboards, modèles ML).
+      </p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Ce que je cherche</h3>
+          <p>Stage / alternance / projets freelance en Data, BI, ML.</p>
+        </div>
+        <div class="card">
+          <h3>Stack</h3>
+          <p>Python, SQL, Power BI, ETL, ML (scikit-learn), Git.</p>
+        </div>
+        <div class="card">
+          <h3>Atouts</h3>
+          <p>Rigueur, communication, sens business (banque), esprit d’analyse.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section alt">
+    <div class="container">
+      <h2>Formation</h2>
+      <ul class="timeline">
+        <li>
+          <div class="dot"></div>
+          <div class="content">
+            <h3>Master Intelligence Artificielle & Analytics</h3>
+            <p>Université Ibn Zohr — Faculté Polydisciplinaire d’Ouarzazate</p>
+            <span class="meta">2024 – 2026</span>
+          </div>
+        </li>
+        <li>
+          <div class="dot"></div>
+          <div class="content">
+            <h3>Licence Informatique & Gestion</h3>
+            <p>—</p>
+            <span class="meta">—</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Compétences</h2>
+
+      <div class="chips">
+        <span class="chip">Python</span>
+        <span class="chip">SQL</span>
+        <span class="chip">Power BI</span>
+        <span class="chip">ETL / Power Query</span>
+        <span class="chip">Machine Learning</span>
+        <span class="chip">Git / GitHub</span>
+        <span class="chip">Data Warehouse</span>
+        <span class="chip">Excel</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section alt">
+    <div class="container">
+      <h2>Expérience</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Agent Commercial — Banque Populaire</h3>
+          <p class="meta">3+ ans</p>
+          <ul>
+            <li>Accueil client, opérations, suivi et reporting.</li>
+            <li>Culture KPI, rigueur, sens du service.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projets</h2>
+
+      <div class="projects">
+        <article class="project">
+          <h3>Dashboard Power BI — KPI Vente</h3>
+          <p>Modélisation + Power Query + visualisations + KPIs.</p>
+          <div class="links">
+            <a href="#" target="_blank" rel="noreferrer">Démo</a>
+            <a href="#" target="_blank" rel="noreferrer">Code</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <h3>ML — Classification diabète (MLP from scratch)</h3>
+          <p>Propagation avant, rétropropagation, SGD, évaluation.</p>
+          <div class="links">
+            <a href="#" target="_blank" rel="noreferrer">Rapport</a>
+            <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <h3>IoT — météo & qualité de l’air (Arduino + DL)</h3>
+          <p>Capteurs + pipeline + alertes + modèle de prédiction.</p>
+          <div class="links">
+            <a href="#" target="_blank" rel="noreferrer">Détails</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2>Contact</h2>
+
+      <div class="contact-grid">
+        <div class="card">
+          <h3>Me contacter</h3>
+          <p>Email : <a href="mailto:soukaina@email.com">soukaina@email.com</a></p>
+          <p>LinkedIn : <a href="#" target="_blank" rel="noreferrer">Mon profil</a></p>
+        </div>
+
+        <form class="card" onsubmit="return sendMail(event)">
+          <h3>Message rapide</h3>
+          <input id="name" required placeholder="Nom" />
+          <input id="email" type="email" required placeholder="Email" />
+          <textarea id="message" required placeholder="Votre message"></textarea>
+          <button class="btn primary" type="submit">Envoyer</button>
+          <p class="hint">Astuce: ce formulaire ouvre ton application mail (simple & gratuit).</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Soukaina Bahou — Portfolio</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
